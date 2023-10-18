@@ -1,0 +1,14 @@
+button {
+    position: absolute;
+    height: 30px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    top: 10px;
+    left: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(223, 238, 112);
+    border: 2px solid rgb(15, 64, 242);
+}
