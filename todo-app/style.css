@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.message-box {
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+.todo-app {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+
+.tasks-header {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.tasks-list-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.task-item {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(163, 161, 161);
+    padding: 10px;
+}
+.task {
+    flex: 80%;
+    border: 1px solid black;
+    list-style-position: inside;
+    padding: 5px;
+}
+.task.done {
+    text-decoration: line-through;
+}
+
+.done-button,
+.delete-button {
+    flex: 10%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.done-button,
+.delete-button:hover {
+    cursor: pointer;
+}
+
+.text-input {
+    border: 1px solid black;
+}
+.text-input:focus {
+    outline: none;
+}

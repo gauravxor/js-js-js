@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <p> Todo App using Vanilla JavaScript</p>
+    </header>
+    <!-- Main container that will have centered todo app -->
+    <div class="app-container">
+
+        <div class="message-box">Some Message</div>
+        <!-- Todo app container -->
+        <div class="todo-app">
+            <!-- Form to accept task and hold add/clear buttons -->
+            <form class="task-form">
+                <input class="text-input" type="text" name="taskTitle" placeholder="Enter your task to add"></input>
+                <button class="add-button" type="submit">Add</button>
+                <button class="clear-button" type="reset">Clear</button>
+            </form>
+
+            <!-- Container to hold the header of the task list -->
+            <div class="tasks-header">
+                Your Tasks
+            </div>
+
+            <!-- Ordered list to hold the all the tasks -->
+            <ol class="task-list-container">
+
+                <!-- <div class="task-item">
+                    <li class="task"> Get a job </li>
+                    <div class="done-button"> &#10003;</div>
+                    <div class="delete-button">&#128465;</div>
+                </div> -->
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
